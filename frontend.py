@@ -41,8 +41,9 @@ with dataset:
 
 with features :
     st.header("The features i created")
-    st.markdown("* **First feature** I created this feature combining longitude and latitude of the pickup")
+    st.markdown("* **First feature** I created this feature combining longitude and latitude of the pickup location")
     st.markdown("* **Second feature** I created this feature because... I calculated it using ...")
+    st.write("You can find the code [here](https://github.com/aymanosgb/streamlit-app) on my github. Feel free to check it out"
 
 
 with model_training :
