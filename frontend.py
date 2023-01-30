@@ -27,7 +27,7 @@ with header :
     st.title("Welcome to my Data science project :white_heart:")
     st.subheader('by :blue[_Ayman Moumen_] ')
     st.text("In this project I look into the transactions of taxis on NYC")
-
+    st.write("You can find the code [here](https://github.com/aymanosgb/streamlit-app) on my github. Feel free to check it out")
 
 with dataset:
     st.header("NYC taxi dataset :")
@@ -43,7 +43,8 @@ with features :
     st.header("The features i created")
     st.markdown("* **First feature** I created this feature combining longitude and latitude of the pickup location")
     st.markdown("* **Second feature** I created this feature because... I calculated it using ...")
-    st.write("You can find the code [here](https://github.com/aymanosgb/streamlit-app) on my github. Feel free to check it out")
+    st.markdown(" **Objectives :** In this project we will use a random forest model to predict the fare of the taxi trips")
+    st.markdown(" We will select the parameters of the model, train the mopdel then evaluate it with different metrics")
 
 
 with model_training :
