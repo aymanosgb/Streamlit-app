@@ -47,7 +47,7 @@ with features :
 with objectives :
     st.header("Objectives :")
     st.markdown(" In this project we will use a random forest model to predict the fare of the taxi trips")
-    st.markdown(" We will select the parameters of the model, train the mopdel then evaluate it with different metrics")
+    st.markdown(" We will select the parameters of the model, train the model then evaluate it with different metrics")
 
 
 with model_training :
